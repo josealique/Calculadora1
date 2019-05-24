@@ -69,7 +69,7 @@ public class Calculadora {
         dialogs.put("Cambio de moneda", new CambioDeDivisas());
         dialogs.put("Cambio de unidades", new CambioUnidades());
         dialogs.put("Funciones", new Fx());
-        dialogs.put("Fracciones",new Fraction());
+        dialogs.put("Fracciones",new DialogFraccion());
 
         for (JButton boton : numeros) {
             boton.addActionListener(e -> {

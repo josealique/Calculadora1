@@ -3,7 +3,13 @@ package Clases;
 import javax.swing.*;
 import java.awt.event.*;
 
-public class Fraction extends JDialog {
+/**
+ * @author jmaliquer
+ * @version 1.0
+ * @since 13-05-2019
+ */
+
+public class DialogFraccion extends JDialog {
     private JPanel contentPane;
     private JButton Calcular;
     private JButton buttonCancel;
@@ -12,7 +18,7 @@ public class Fraction extends JDialog {
     private JTextField Resultado;
     private JButton borrarButton;
 
-    public Fraction() {
+    public DialogFraccion() {
         setContentPane(contentPane);
         setModal(true);
         getRootPane().setDefaultButton(Calcular);
